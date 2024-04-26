@@ -8,7 +8,9 @@ if(process.env.NODE_ENV !== 'prod'){
 }
 
 const PORT = process.env.PORT
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY
 
 export {
-    PORT
+    PORT,
+    OPENAI_API_KEY
 }
